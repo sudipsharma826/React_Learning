@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import GetNotified from '../components/GetNotified';
 
 const EditProduct = () => {
 
@@ -107,6 +108,7 @@ const EditProduct = () => {
         </form>
       </div>
     </div>
+    < GetNotified />
     < Footer />
     </>
   );

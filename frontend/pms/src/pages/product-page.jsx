@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import CardHolder from '../components/CardHolder'
 import Footer from '../components/Footer'
+import GetNotified from '../components/GetNotified'
 
 const Productpage = () => {
   return (
@@ -11,7 +12,9 @@ const Productpage = () => {
 <CardHolder />
 <CardHolder />
 </div>
+< GetNotified />
     <Footer />
+
     </>
   )
 }

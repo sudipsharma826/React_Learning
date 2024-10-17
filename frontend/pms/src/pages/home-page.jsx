@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
 import Footer from '../components/Footer'
 import CardHolder from '../components/CardHolder'
+import GetNotified from '../components/GetNotified'
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
 <CardHolder />
 <CardHolder />
 </div>
+< GetNotified />
 <Footer />
     </>
 

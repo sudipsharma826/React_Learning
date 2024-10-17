@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import GetNotified from '../components/GetNotified';
 
 const AddProduct = () => {
   return (
@@ -104,6 +105,7 @@ const AddProduct = () => {
         </button>
       </div>
     </div>
+    <GetNotified />
     < Footer />
     </>
   );
