@@ -77,9 +77,20 @@ const EditProduct = () => {
             />
           </div>
 
+          {/* Exisitng image url */}
+          <div className="mb-4">
+          <label className="block text-sm font-semibold text-gray-700">Current Product Image</label>
+  <img 
+    src="/images/profile.png" 
+    alt="Current image" 
+    className="max-w-xs w-full mt-1 px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+  />
+</div>
+
+
           {/* Image Upload */}
           <div className="mb-6">
-            <label className="block text-sm font-semibold text-gray-700">Product Image</label>
+            <label className="block text-sm font-semibold text-gray-700">New Product Image</label>
             <input
               type="file"
               name="image"

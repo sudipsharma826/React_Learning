@@ -40,7 +40,7 @@ const NavBar = () => {
             <div className="flex flex-1 items-center justify-between sm:items-stretch sm:justify-start">
               {/* Logo in mobile view */}
               <div className="flex flex-shrink-0 items-center">
-                <img className="h-12 w-auto ml-9" src="/images/logo.png" alt="Sudip Sharma" />
+                <Link to="/"><img className="h-12 w-auto ml-9" src="/images/logo.png" alt="Sudip Sharma" /></Link>
               </div>
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
