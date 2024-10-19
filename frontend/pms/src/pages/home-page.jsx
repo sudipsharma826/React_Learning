@@ -16,6 +16,7 @@ const HomePage = () => {
 <div className ="flex space-x-7 mt-7">
 <CardHolder />
 <CardHolder />
+< CardHolder />
 </div>
 < GetNotified />
 <Footer />
